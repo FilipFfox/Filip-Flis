@@ -9,10 +9,12 @@
 }
 body {
     margin: 0;
+    background-color: yellow;
+    font-family:'Roboto', sans-serif;;
 } 
 li {
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     }
 img {
     width: 400px;
@@ -24,4 +26,13 @@ section {
 }
 footer {
     margin: 10px;
+}
+h1 {
+    text-align: center;
+}
+footer {
+    background-color: red;
+    margin: 0;
+    padding: 10px;
+    
 }
