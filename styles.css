@@ -1,38 +1,53 @@
 body {
     margin: 0;
     font-family:'Roboto', sans-serif;
-    background-image: linear-gradient(#c2b280,#b8ac90 );
+    background-color: black;
     font-size: 14px;
+    color: whitesmoke;
 } 
 .h-container {
     display: flex;
-    background-image: linear-gradient(-45deg, rgb(0,204, 68), black);
     padding: 10px;
     width: 100%;
     margin: 0;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 5px solid black;
     margin-bottom: 30px;
+}
+nav {
+    background-color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(180,180,180);
+    font-size: 35px;
+    padding: 10px;
+    align-self: first baseline;
+    box-shadow: 3px 5px 5px rgb(0,204, 68);
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .mpk {
     font-style: italic;
     font-weight: 300;
     font-size: 30px;
+    text-shadow: 3px 2px 3px rgb(120,120,120);
 }
 .ff {
     font-size: 100px;
 }
 section {
     margin: 20px;
-    border: solid black 5px;
+    border: solid rgb(60,60,60) 5px;
     border-radius: 10px;
+    color: #222;
+    box-shadow: 3px 5px 10px rgb(120,120,120);
 }
 footer {
-    border-top: solid black 5px;
-    background-image: linear-gradient(45deg, rgb(245, 191, 66),rgb(209, 16, 2));
+    background-color: rgb(180,180,180);
     padding: 10px;
     margin: 0;
+    color: #333;
 }
 li {
     font-size: 30px;
@@ -48,10 +63,11 @@ h1 {
     text-align: center;
     font-size: 50px;
     margin: 0;
-    text-shadow: 3px 3px 5px rgb(120,120,120);
+    text-shadow: 3px 3px 5px rgb(0,204, 68);
 }
 h2 {
     font-size: 30px;
+    text-shadow: 3px 2px 3px rgb(120,120,120)
     
 }
 h3 {
@@ -64,15 +80,12 @@ p {
 
 }
 a {
-    color: black;
+    color: #222;
     text-decoration: none;
     font-weight: 200;
 }
 a:hover {
-    color: rgb(120,120,120)
-}
-a:after {
-    color: rgb(60,60,60);
+    color: rgb(0,204, 68);
 }
 a:active {
     color: rgb(120,120,120)
@@ -83,7 +96,7 @@ a:active {
     gap: 20px;
     align-items:first baseline;
     justify-content: space-evenly;
-    background-image: linear-gradient(90deg, rgb(245, 173, 66),rgb(255, 180, 70));
+    background-image: linear-gradient(0deg, rgb(60,60,60), rgb(180,180,180));;
     width: 1500px;
     margin: auto;
     margin-bottom: 40px;
@@ -91,13 +104,16 @@ a:active {
     text-align: center;
 }
 #informacje {
-    background-image: linear-gradient(rgb(245, 191, 66), rgb(245, 173, 66));
+    background-image: linear-gradient(300deg, rgb(60,60,60), rgb(180,180,180));;
     width: 1200px;
     height: auto;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 10px;
     padding: 15px;
+}
+.center {
+    text-align: center;
 }
 .kim {
     margin-top: 10px; 
