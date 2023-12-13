@@ -1,28 +1,32 @@
 body {
     margin: 0;
     font-family:'Roboto', sans-serif;
-    background-image: linear-gradient(rgb(0,204, 68), rgb(245, 191, 66),rgb(209, 16, 2));
+    background-image: linear-gradient(#c2b280,#b8ac90 );
     font-size: 14px;
 } 
 .h-container {
     display: flex;
-    background-image: linear-gradient(90deg, rgb(0,204, 68), rgb(245, 191, 66));
+    background-image: linear-gradient(-45deg, rgb(0,204, 68), black);
     padding: 10px;
     width: 100%;
     margin: 0;
     justify-content: space-around;
     align-items: center;
     border-bottom: 5px solid black;
+    margin-bottom: 30px;
 }
 .mpk {
     font-style: italic;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 30px;
+}
+.ff {
+    font-size: 100px;
 }
 section {
     margin: 20px;
     border: solid black 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 footer {
     border-top: solid black 5px;
@@ -79,10 +83,21 @@ a:active {
     gap: 20px;
     align-items:first baseline;
     justify-content: space-evenly;
-    background-image: linear-gradient(90deg, rgb(245, 173, 66),rgb(209, 16, 2));
+    background-image: linear-gradient(90deg, rgb(245, 173, 66),rgb(255, 180, 70));
+    width: 1500px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center;
 }
 #informacje {
-    background-image: linear-gradient(rgb(245, 191, 66), rgb(245, 173, 66))
+    background-image: linear-gradient(rgb(245, 191, 66), rgb(245, 173, 66));
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 15px;
 }
 .kim {
     margin-top: 10px; 
