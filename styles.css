@@ -17,16 +17,15 @@ body {
 }
 nav {
     text-align: center;
-    text-shadow: 3px 3px 5px rgb(0,204, 68);
-    font-size: 35px;
+    text-shadow: 4px 5px 5px rgb(0,204, 68);
+    font-size: 37px;
     padding: 10px;
-    align-self: first baseline;
     display: flex;
     gap: 15px;
     justify-content: space-around;
     margin-bottom: 20px;
     color: white;
-}
+    }
 .mpk {
     font-style: italic;
     font-weight: 300;
@@ -40,6 +39,54 @@ img {
     height: 300px;
     border: 10px groove black;
 }
+.wave {
+    float: left;
+    margin: 20px;
+    animation: wave  ease-in-out 1s infinite alternate;
+    transform-origin: center -36px;
+  }
+  
+  .wave:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  
+  .wave img {
+    border: 5px solid #f8f8f8;
+    display: block;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .wave figcaption {
+    text-align: center;
+  }
+  
+  .wave:after{
+    content: '';
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    border: 1.5px solid #ffffff;
+    top: -10px; 
+    left: 50%;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(35deg);
+  }
+  .wave:before{
+    content: '';
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    display: block;
+    height: 44px;
+    width: 47px;
+    background-image: url(https://cdn.hashnode.com/res/hashnode/image/upload/v1602040503586/FW6g79WBY.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    z-index: 16;
+  }
 /* Sections */
 section {
     margin: 20px;
@@ -47,15 +94,20 @@ section {
     border-radius: 10px;
     color: #222;
     box-shadow: 3px 5px 10px rgb(120,120,120);
-}
+    }
 #informacje {
     background-color: rgb(180,180,180);
     width: 1200px;
     height: auto;
     margin: auto;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     padding: 15px;
+    transition: 700ms linear;
+}
+.scale:hover {
+    transform: scale(1.1);
+    margin: 20px auto;
 }
 #skills {
     display: flex;
@@ -68,6 +120,7 @@ section {
     margin-bottom: 40px;
     margin-top: 10px;
     text-align: center;
+    
 }
 /* Footer */
 footer {
@@ -88,6 +141,16 @@ h1 {
     font-size: 50px;
     margin: auto;
     text-shadow: 3px 3px 5px rgb(0,204, 68);
+}
+.typewriter h1 {
+    overflow: hidden; 
+  border-right: .08em solid rgb(0,204, 68); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: 0.02em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 h2 {
     font-size: 40px;
