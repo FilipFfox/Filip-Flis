@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+    background-color: whitesmoke;
+    }
+ /*Header*/
+.h-container {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+nav {
+    text-align: center;
+    font-size: 37px;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    background-color: #222;
+    width: 100%;
+    }
+.subtitle {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+}
+img {
+    height: 300px;
+    width: auto;
+    border: 10px groove black;
+}
+/* Sections */
+section {
+    margin: 20px;
+    border: solid rgb(60,60,60) 5px;
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 3px 5px 10px rgb(120,120,120);
+    background-color: rgb(180,180,180);
+    }
+#informacje {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 15px;
+    transition: 700ms linear;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items:first baseline;
+    justify-content: space-evenly;
+    width: 1500px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+/* Footer */
+footer {
+    background-color: rgb(180,180,180);
+    padding: 10px;
+    margin: 0;
+    color: #222;
+    
+}
+li {
+    font-size: 18px;
+    display: inline;
+    margin-right: 15px;
+    font-weight: 700;
+    }
+/* Text */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+}
+h2 {
+    font-size: 40px;
+    }
+h3 {
+    font-size: 25px;
+    }
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+.center {
+    text-align: center;
+}
+/* Anchor */
+a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #222;
+}
+a:hover {
+    color: rgb(0,204, 68);
+}
+a:active {
+    color: rgb(120,120,120)
+}
+.na {
+    color:white;
+}
+
+
+
