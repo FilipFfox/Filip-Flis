@@ -13,7 +13,6 @@ body {
     margin: 0;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
 }
 nav {
     text-align: center;
@@ -22,7 +21,6 @@ nav {
     display: flex;
     gap: 15px;
     justify-content: space-around;
-    margin-bottom: 10px;
     color: white;
     position: fixed;
     top: 0;
@@ -35,7 +33,7 @@ nav {
     font-size: 30px;
 }
 img {
-    height: 300px;
+    height: 10em;
     width: auto;
     border: 10px groove black;
 }
@@ -71,14 +69,17 @@ section {
     text-align: center;
     
 }
+#projekty {
+    margin-bottom: 6em;
+    margin: 4em;
+}
 /* Footer */
 footer {
     background-color: rgb(180,180,180);
     padding: 10px;
     margin: 0;
     color: #222;
-    
-}
+    }
 li {
     font-size: 18px;
     display: inline;
