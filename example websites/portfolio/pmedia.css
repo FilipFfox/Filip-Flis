@@ -1,0 +1,111 @@
+@media screen and (max-width: 480px) {
+ /*Header*/
+    .h-container {
+        display: flex;
+        padding: 10px;
+        width: 100%;
+        margin: 0;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    nav {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        color: white;
+        }
+    /* Sections */
+    section {
+        margin: 20px;
+        border: solid rgb(60,60,60) 5px;
+        border-radius: 10px;
+        color: #222;
+        box-shadow: 3px 5px 10px rgb(120,120,120);
+        }
+    #informacje {
+        background-color: rgb(180,180,180);
+        width: 25em;
+        height: auto;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        padding: 15px;
+        transition: 700ms linear;
+    }
+    .scale:hover {
+        transform: scale(1.05);
+        margin: 20px auto;
+    }
+    #skills {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30em;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+}
+@media screen and (min-width: 500px) {
+ .h-container{ 
+    flex-direction: column;
+ }   
+ #informacje {
+    width: 30em;
+ }
+ #skills {
+    width: 30em;
+    align-items: center;
+    flex-direction: column;
+ }
+}
+@media screen and (min-width: 770px) {
+    .h-container {
+        flex-direction: row;
+    }
+    #informacje {
+        width: 45em
+    }    
+    #skills {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #informacje {
+        width: 60em;
+    }
+    #skills {
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1200px) {
+    nav {
+        font-size: 2.5rem;
+    }
+    #informacje {
+        width: 70em
+    }
+    #skills {
+        width: 100%;
+        align-items: first baseline;
+    }
+}
+@media screen and (min-width: 1500px ) {
+    nav {
+        font-size: 2.7rem;
+    }
+    #informacje {
+        width: 70%;
+    }
+}
