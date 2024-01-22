@@ -70,6 +70,9 @@
     align-items: center;
     flex-direction: column;
  }
+ nav {
+    position: relative;
+ }
 }
 @media screen and (min-width: 770px) {
     .h-container {
@@ -81,6 +84,9 @@
     #skills {
         flex-direction: column;
     }
+    nav {
+        position: relative;
+     }
 }
 @media screen and (min-width: 1000px) {
     #informacje {
