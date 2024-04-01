@@ -127,6 +127,7 @@ footer {
     background-color: rgb(180,180,180);
     padding: 10px;
     margin: 0;
+    margin-left: 10px;
     color: #333;
     width: 100%;
 }
@@ -160,6 +161,9 @@ h2 {
 h3 {
     font-size: 25px;
     }
+h4 {
+    font-size: 15px;
+}
 p {
     font-size: 20px;
     text-align: justify;
